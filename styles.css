@@ -1,0 +1,338 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+  
+.clear {
+    clear: both;
+}
+  
+
+header {
+    height: 150px;
+    clear: both;
+    background-color: #4491e9;
+}
+
+  
+section {
+    height: 750px;
+    width: 50%;
+    float: left;
+    background-color: #e6e8eb;
+}
+
+.logoside {
+    float: left;
+    width: 50%;
+    height: 150px;
+    background-color: #3c5b9a
+}
+
+.loginside {
+    float: left;
+    width: 50%;
+    height: 150px;
+    background-color: #3c5b9a
+}
+
+.logoside img {
+    float: left;
+    height: 270px;
+    width: 300px;
+    margin-left: 200px;
+    margin-top: -70px;
+}
+
+.loginside form {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 450px;
+    margin-top: 40px;
+}
+
+.loginside input {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 12px 8px 12px;
+    margin-left: 10px;
+}
+
+.loginside a {
+    float: right;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 110px;
+}
+
+.login {
+    background-color: #4491e9;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: -3px;
+}
+
+.left h1 {
+    float: left;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    text-align: left;
+    font-weight: 700;
+    margin-left: 300px;
+    margin-top: 60px;
+}
+
+.left a {
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left span {
+    float: left;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 4px;
+}
+
+.left a img {
+    float: left;
+    margin-left: 300px;
+    margin-right: 16px;
+    height: 64px;
+    width: 64px;
+}
+
+.signup {
+    float: left;
+    height: 100px;
+    width: 100%;
+}
+
+.info {
+    float: left;
+    height: 300px;
+    width: 100%;
+}
+
+.bday {
+    float: left;
+    height: 100px;
+    width: 100%;
+}
+
+.moreinfo {
+    float: left;
+    height: 100px;
+    width: 100%;
+}
+
+.tos {
+    float: left;
+    height: 50px;
+    width: 100%;
+}
+
+.signupbutton {
+    float: left;
+    height: 50px;
+    width: 100%;
+}
+
+.createpage {
+    float: left;
+    height: 50px;
+    width: 100%;
+}
+
+.signup h2 {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 34px;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+
+.signup span {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -12px;
+    margin-left: 30px;
+}
+
+.info form {
+    float: left;
+}
+
+.name {
+    float: left;
+    padding: 14px 50px 14px 10px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.email {
+    float: left;
+    padding: 14px 312px 14px 10px;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-right: 500px;
+}
+
+.pass {
+    float: left;
+    padding: 14px 312px 14px 10px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.bday a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    float: left;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bday form {
+    color: black;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.bday input {
+    color: black;
+    float: left;
+    padding: 10px 100px 10px 20px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 32px;
+    margin-left: -114px;
+}
+
+.bday a img {
+    margin-left: 8px;
+}
+
+.moreinfo a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    float: left;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.moreinfo a img {
+    margin-left: 8px;
+  
+}
+
+.moreinfo form {
+    color: black;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.moreinfo input {
+    float: left;
+    margin-top: 40px;
+    margin-left: -170px;
+}
+
+.moreinfo label {
+    color: black;
+    float: left;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 38px;
+    margin-left: -105px;
+    margin-right: 180px;
+}
+
+.tos p {
+    float: left;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-left: 250px;
+    margin-top: 8px;
+}
+
+.tos a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+
+}
+
+.tos span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: grey;
+    margin-right: 2px;
+}
+
+.signupbutton button {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: rgb(6, 201, 6);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 8px 50px 8px 50px;
+    margin-top: 2px;
+    margin-left: 400px;
+}
+
+.createpage a {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin-left: 320px;
+    margin-top: 14px;
+}
+
+.createpage span {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 4px;
+}
